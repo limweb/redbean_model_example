@@ -29,7 +29,7 @@ abstract class BaseModel {
         return R::load($table, $id);
     }
 
-    public function doSave(\RedBean_OODBBean &$model)
+    protected function doSave(\RedBean_OODBBean &$model)
     {
         $date = date('Y-m-d H:i:s');
         if (!$model->created) {
