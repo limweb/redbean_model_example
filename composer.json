@@ -1,0 +1,8 @@
+{
+  "require": {
+    "gabordemooij/redbean": "v3.4.4"
+  },
+  "autoload": {
+      "psr-0": {"Acme\\": "src/"}
+  }
+}
